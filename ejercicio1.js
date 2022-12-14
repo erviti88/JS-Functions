@@ -5,32 +5,20 @@ Completa la función que tomando dos números como argumento devuelva el más al
 function sum(numberOne , numberTwo) {
 
     if (numberOne > numberTwo) {
+        console.log(numberOne +' es mayor'); 
 
-        console.log(numberOne +' es mayor');
-        
-        return numberOne;
+    return numberOne;
 
+    } else if (numberOne == numberTwo){
+        console.log('Los números son iguales')
+    
     } else {
-
-        if (numberOne == numberTwo) {
-
-            console.log('Los números son iguales')
-
-        }
-
-        else {
-
-            console.log(numberTwo +' es mayor');
-
-            return numberTwo;
-
-        }
+        console.log(numberTwo +' es mayor');
+        
+        return numberTwo;
     }
 }
 
 sum(2,9);
 sum(8,2);
-sum(10,10);
-
-
-  
+sum(10,10);  
