@@ -22,10 +22,6 @@ function findAName(nameFinder, name) {
 
     const result = [];
 
-    if (nameFinder.length === 0) {
-        return emptyArray;
-    }
-
     for (let i = 0; i < nameFinder.length; i++) {
         if (nameFinder[i] === name) {
             result.push(true, i);
