@@ -4,17 +4,17 @@ dos strings tenga la misma longitud deberá devolver el primero. Puedes usar est
 
 const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
 
-function findLongestWord(avengers) {
+function findLongestWord(array) {
 
-    if (avengers.length === 0) {
+    if (array.length === 0) {
         return null;
     }
 
-    let longestString = avengers[0];
+    let longestString = array[0];
 
-    for (let i = 0; i < avengers.length; i++) {
-        if (avengers[i].length > longestString.length) {
-            longestString = avengers[i];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].length > longestString.length) {
+            longestString = array[i];
         }
     }
     

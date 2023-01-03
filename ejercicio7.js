@@ -18,12 +18,12 @@ const nameFinder = [
     'Marc'
   ];
 
-function findAName(nameFinder, name) {
+function findAName(array, value) {
 
     const result = [];
 
-    for (let i = 0; i < nameFinder.length; i++) {
-        if (nameFinder[i] === name) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === value) {
             result.push(true, i);
             return result;
         }

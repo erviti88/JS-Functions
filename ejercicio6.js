@@ -18,13 +18,13 @@ const duplicates = [
     'soda'
   ];
 
-function removeDuplicates(duplicates) {
+function removeDuplicates(array) {
 
   const uniqueElements = [];
 
-  for (const element of duplicates) {
-    if (!uniqueElements.includes(element)) {
-    uniqueElements.push(element);
+  for (const iterator of array) {
+    if (!uniqueElements.includes(iterator)) {
+    uniqueElements.push(iterator);
     }
   }
   return uniqueElements;
