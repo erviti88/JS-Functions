@@ -21,4 +21,4 @@ function sum(numberOne , numberTwo) {
 
 sum(2,9);
 sum(8,2);
-sum(10,10);  
+sum(10,10);
